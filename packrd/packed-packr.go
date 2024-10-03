@@ -28,7 +28,7 @@ var _ = func() error {
 	g.DefaultResolver = hgr
 
 	func() {
-		b := packr.New("github.com/gobuffalo/pop/v5/genny/model/templates", "../model/templates")
+		b := packr.New("github.com/KoddiDev/pop/v6/genny/model/templates", "../model/templates")
 		b.SetResolver("-path-/-name-.go.tmpl", packr.Pointer{ForwardBox: gk, ForwardPath: "fd34d2cca184d1b4064adfc3bbcec4c6"})
 		b.SetResolver("-path-/-name-_test.go.tmpl", packr.Pointer{ForwardBox: gk, ForwardPath: "f0365201a1fff056862862ae1fe97c7a"})
 	}()

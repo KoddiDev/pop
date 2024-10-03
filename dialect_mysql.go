@@ -7,13 +7,13 @@ import (
 	"os/exec"
 	"strings"
 
+	"github.com/KoddiDev/pop/v6/columns"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
+	"github.com/KoddiDev/pop/v6/logging"
 	// Load MySQL Go driver
 	_mysql "github.com/go-sql-driver/mysql"
 	"github.com/gobuffalo/fizz"
 	"github.com/gobuffalo/fizz/translators"
-	"github.com/gobuffalo/pop/v5/columns"
-	"github.com/gobuffalo/pop/v5/internal/defaults"
-	"github.com/gobuffalo/pop/v5/logging"
 	"github.com/pkg/errors"
 )
 

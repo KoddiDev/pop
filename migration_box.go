@@ -3,8 +3,8 @@ package pop
 import (
 	"strings"
 
+	"github.com/KoddiDev/pop/v6/logging"
 	"github.com/gobuffalo/packd"
-	"github.com/gobuffalo/pop/v5/logging"
 	"github.com/pkg/errors"
 )
 

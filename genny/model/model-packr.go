@@ -5,4 +5,4 @@
 // and any other packr generated files.
 package model
 
-import _ "github.com/gobuffalo/pop/v5/packrd"
+import _ "github.com/KoddiDev/pop/v6/packrd"

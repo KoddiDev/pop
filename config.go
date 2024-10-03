@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"text/template"
 
+	"github.com/KoddiDev/pop/v6/logging"
 	"github.com/gobuffalo/envy"
-	"github.com/gobuffalo/pop/v5/logging"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

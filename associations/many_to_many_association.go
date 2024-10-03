@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
+	"github.com/KoddiDev/pop/v6/internal/defaults"
 	"github.com/gobuffalo/flect"
-	"github.com/gobuffalo/pop/v5/internal/defaults"
 	"github.com/gofrs/uuid"
 )
 

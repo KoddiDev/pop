@@ -10,8 +10,8 @@ import (
 
 	"github.com/luna-duclos/instrumentedsql"
 
-	"github.com/gobuffalo/pop/v5/internal/defaults"
-	"github.com/gobuffalo/pop/v5/logging"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
+	"github.com/KoddiDev/pop/v6/logging"
 	"github.com/pkg/errors"
 )
 

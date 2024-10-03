@@ -11,8 +11,8 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 
-	"github.com/gobuffalo/pop/v5/associations"
-	"github.com/gobuffalo/pop/v5/logging"
+	"github.com/KoddiDev/pop/v6/associations"
+	"github.com/KoddiDev/pop/v6/logging"
 )
 
 var rLimitOffset = regexp.MustCompile("(?i)(limit [0-9]+ offset [0-9]+)$")
@@ -295,7 +295,7 @@ func (q *Query) eagerDefaultAssociations(model interface{}) error {
 // Exists returns true/false if a record exists in the database that matches
 // the query.
 //
-// 	q.Where("name = ?", "mark").Exists(&User{})
+//	q.Where("name = ?", "mark").Exists(&User{})
 func (q *Query) Exists(model interface{}) (bool, error) {
 	tmpQuery := Q(q.Connection)
 	q.Clone(tmpQuery) // avoid meddling with original query

@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gobuffalo/pop/v5/internal/defaults"
-	"github.com/gobuffalo/pop/v5/internal/randx"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
+	"github.com/KoddiDev/pop/v6/internal/randx"
 )
 
 // Connections contains all available connections

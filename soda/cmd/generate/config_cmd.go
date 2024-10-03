@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/KoddiDev/pop/v6"
+	"github.com/KoddiDev/pop/v6/genny/config"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
 	"github.com/gobuffalo/genny/v2"
-	"github.com/gobuffalo/pop/v5"
-	"github.com/gobuffalo/pop/v5/genny/config"
-	"github.com/gobuffalo/pop/v5/internal/defaults"
 	"github.com/spf13/cobra"
 )
 

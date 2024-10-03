@@ -3,13 +3,13 @@ package generate
 import (
 	"context"
 
+	"github.com/KoddiDev/pop/v6"
+	"github.com/KoddiDev/pop/v6/genny/fizz/ctable"
+	gmodel "github.com/KoddiDev/pop/v6/genny/model"
 	"github.com/gobuffalo/attrs"
 	"github.com/gobuffalo/fizz"
 	"github.com/gobuffalo/genny/v2"
 	"github.com/gobuffalo/logger"
-	"github.com/gobuffalo/pop/v5"
-	"github.com/gobuffalo/pop/v5/genny/fizz/ctable"
-	gmodel "github.com/gobuffalo/pop/v5/genny/model"
 	"github.com/spf13/cobra"
 )
 

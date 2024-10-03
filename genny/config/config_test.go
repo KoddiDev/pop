@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/KoddiDev/pop/v6"
 	"github.com/gobuffalo/genny/v2"
-	"github.com/gobuffalo/pop/v5"
 	"github.com/stretchr/testify/require"
 )
 

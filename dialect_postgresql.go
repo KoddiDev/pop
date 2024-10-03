@@ -15,9 +15,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 
-	"github.com/gobuffalo/pop/v5/columns"
-	"github.com/gobuffalo/pop/v5/internal/defaults"
-	"github.com/gobuffalo/pop/v5/logging"
+	"github.com/KoddiDev/pop/v6/columns"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
+	"github.com/KoddiDev/pop/v6/logging"
 )
 
 const namePostgreSQL = "postgres"

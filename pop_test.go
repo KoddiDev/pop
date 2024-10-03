@@ -12,7 +12,7 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/gobuffalo/pop/v5/logging"
+	"github.com/KoddiDev/pop/v6/logging"
 )
 
 var PDB *Connection

@@ -12,11 +12,11 @@ import (
 	// Import PostgreSQL driver
 	_ "github.com/jackc/pgx/v4/stdlib"
 
+	"github.com/KoddiDev/pop/v6/columns"
+	"github.com/KoddiDev/pop/v6/internal/defaults"
+	"github.com/KoddiDev/pop/v6/logging"
 	"github.com/gobuffalo/fizz"
 	"github.com/gobuffalo/fizz/translators"
-	"github.com/gobuffalo/pop/v5/columns"
-	"github.com/gobuffalo/pop/v5/internal/defaults"
-	"github.com/gobuffalo/pop/v5/logging"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 )

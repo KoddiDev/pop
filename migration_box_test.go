@@ -3,8 +3,8 @@ package pop
 import (
 	"testing"
 
+	"github.com/KoddiDev/pop/v6/logging"
 	"github.com/gobuffalo/packr/v2"
-	"github.com/gobuffalo/pop/v5/logging"
 	"github.com/stretchr/testify/require"
 )
 

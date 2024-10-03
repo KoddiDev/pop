@@ -3,8 +3,8 @@ package pop
 import (
 	"io"
 
+	"github.com/KoddiDev/pop/v6/columns"
 	"github.com/gobuffalo/fizz"
-	"github.com/gobuffalo/pop/v5/columns"
 )
 
 type crudable interface {

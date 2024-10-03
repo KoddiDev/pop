@@ -9,7 +9,7 @@ import (
 
 	nflect "github.com/gobuffalo/flect/name"
 
-	"github.com/gobuffalo/pop/v5/columns"
+	"github.com/KoddiDev/pop/v6/columns"
 	"github.com/pkg/errors"
 
 	"github.com/gobuffalo/flect"
