@@ -6,7 +6,6 @@ replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.7
 
 require (
 	github.com/fatih/color v1.9.0
-	github.com/go-kit/kit v0.10.0 // indirect
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gobuffalo/attrs v0.1.0
 	github.com/gobuffalo/envy v1.8.1
