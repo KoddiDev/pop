@@ -6,7 +6,7 @@ replace github.com/mattn/go-sqlite3 => github.com/mattn/go-sqlite3 v1.14.7
 
 require (
 	github.com/fatih/color v1.9.0
-	github.com/go-sql-driver/mysql v1.9.3
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gobuffalo/attrs v0.1.0
 	github.com/gobuffalo/envy v1.8.1
 	github.com/gobuffalo/fizz v1.14.4
@@ -33,7 +33,6 @@ require (
 )
 
 require (
-	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
