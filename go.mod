@@ -1,6 +1,6 @@
 module github.com/gobuffalo/pop/v6
 
-go 1.16
+go 1.24.6
 
 require (
 	github.com/fatih/color v1.13.0
@@ -15,8 +15,8 @@ require (
 	github.com/gobuffalo/plush/v4 v4.1.18
 	github.com/gobuffalo/validate/v3 v3.3.3
 	github.com/gofrs/uuid v4.3.1+incompatible
-	github.com/jackc/pgconn v1.13.0
-	github.com/jackc/pgx/v4 v4.17.2
+	github.com/jackc/pgconn v1.14.3
+	github.com/jackc/pgx/v4 v4.18.3
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.7
 	github.com/luna-duclos/instrumentedsql v1.1.3
